@@ -1,0 +1,29 @@
+<mat-nav-list (click)="onSidenavClose()">
+  <a
+    mat-list-item
+    routerLink="/signup"
+  >
+    <mat-icon>face</mat-icon>
+    <span class="nav-caption">Signup</span>
+  </a>
+  <a
+    mat-list-item
+    routerLink="/login"
+  >
+    <mat-icon>grade</mat-icon>
+    <span class="nav-caption">Login</span>
+  </a>
+  <a
+    mat-list-item
+    routerLink="/training"
+  >
+    <mat-icon>directions_run</mat-icon>
+    <span class="nav-caption">Training</span>
+  </a>
+  <mat-list-item>
+    <button mat-icon-button>
+      <mat-icon>eject</mat-icon>
+      <span class="nav-caption">Logout</span>
+    </button>
+  </mat-list-item>
+</mat-nav-list>
